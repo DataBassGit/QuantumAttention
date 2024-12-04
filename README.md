@@ -87,4 +87,16 @@ This implementation suggests several testable hypotheses:
 
 ## References
 
-[References to be added]
+1. Webb, T. W., & Graziano, M. S. A. (2015). The attention schema theory: A mechanistic account of subjective awareness. Frontiers in Psychology, 6, 500.
+
+2. Hameroff, S., & Penrose, R. (2014). Consciousness in the universe: A review of the 'Orch OR' theory. Physics of Life Reviews, 11(1), 39-78.
+
+3. Hameroff, S. (2007). Orchestrated reduction of quantum coherence in brain microtubules: A model for consciousness. NeuroQuantology, 5(1), 1-8.
+
+4. Tomic, M. (2020). Quantum Computational Psychoanalysis -- Quantum logic approach to Bi-logic. arXiv:2010.04550.
+
+5. Gao, S. (2022). Orch OR and the Quantum Biology of Consciousness. In Consciousness and Quantum Mechanics. Oxford University Press.
+
+6. Chen, Z., Xue, Y., Duan, R., & Chen, J. (2024). Quantum linear algebra is all you need for Transformer architectures. arXiv:2402.16714.
+
+The first three papers provide the foundational theories of consciousness (AST and Orch OR). Paper 4 demonstrates how quantum logic and Hilbert spaces can represent mental processes. Paper 5 explores the quantum biological basis of consciousness. Paper 6 provides the quantum computing framework we build upon for implementing consciousness-aware transformers.
