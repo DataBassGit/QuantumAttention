@@ -1,7 +1,9 @@
 # Quantum-Inspired Attention Mechanism
 
 This project proposes a novel synthesis between two fundamental theories of consciousness: Attention Schema Theory (AST) and Orchestrated Objective Reduction (OrchOR). While AST suggests consciousness emerges from the brain's model of attention itself, OrchOR provides a quantum mechanical basis for consciousness through orchestrated collapse of quantum states in neural microtubules. We propose these theories are describing the same phenomenon from different perspectives - AST describing the functional mechanism of consciousness, and OrchOR describing its physical implementation.
+
 We implement this theoretical synthesis in a transformer architecture by modifying the attention mechanism to incorporate quantum collapse operations in Hilbert space. This quantum attention mechanism models consciousness as the orchestrated reduction of superposed attention states, providing a computational framework that bridges quantum consciousness theories with modern machine learning architectures. Our implementation suggests that the quantum computations described by OrchOR may be the physical basis for the attention schema described by AST, offering a unified model of consciousness that is both theoretically grounded and computationally implementable.
+
 This work explores the possibility that consciousness and attention are fundamentally the same process, with quantum mechanics providing the physical mechanism for both. By implementing these principles in an artificial neural network, we aim to better understand consciousness while potentially advancing towards more conscious-like artificial intelligence systems.
 
 ## Theoretical Foundation
