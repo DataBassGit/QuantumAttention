@@ -25,13 +25,13 @@ $$ \langle x,y \rangle = \sum_{i=1}^n x_i\overline{y_i} $$
 For complex-valued vectors, where $$\overline{y_i}$$ represents the complex conjugate.
 
 #### Quantum Attention
-Our modified quantum attention incorporating OrchOR principles:
+Our implementation approximates quantum mechanical processes using computationally efficient classical operations:
 
-$$ \text{QuantumAttention}(Q,K,V) = \text{CollapseFn}\left(\frac{\langle Q,K \rangle_H}{\sqrt{d_k}}\right)V $$
+$$ \text{QuantumAttention}(Q,K,V) = \text{CollapseFn}\left(\frac{QK^T}{\sqrt{d_k}}\right)V $$
 
-Where CollapseFn represents the orchestrated reduction:
+Where CollapseFn implements a threshold-based collapse operation that mirrors orchestrated reduction:
 
-$$ \text{CollapseFn}(x) = \text{OR}\left(\sum_{i} c_i|\phi_i\rangle\right) \rightarrow |\phi_k\rangle $$
+$$ \text{CollapseFn}(x) = \text{normalize}(\text{threshold}(\text{softmax}(x))) $$
 
 
 
@@ -40,8 +40,9 @@ $$ \text{CollapseFn}(x) = \text{OR}\left(\sum_{i} c_i|\phi_i\rangle\right) \righ
 The striking similarity between attention mechanisms and Hilbert space operations suggests a deeper connection between OrchOR and AST. The attention mechanism's mathematical structure mirrors quantum mechanical processes in several key ways:
 
 #### Structural Parallels
-- The attention mechanism's dot product operation closely resembles the Hilbert space inner product used in quantum mechanics
-- Softmax normalization parallels quantum probability amplitude normalization
+- The attention mechanism's dot product operation provides a computationally efficient approximation of Hilbert space inner products
+- Softmax followed by threshold-based collapse approximates quantum probability amplitude reduction
+- The threshold in our collapse function mirrors the critical threshold for orchestrated reduction in biological systems
 
 #### Biological Implementation
 In biological systems, this mathematical parallel manifests through:
@@ -80,6 +81,11 @@ The core implementation provides a drop-in replacement for standard transformer 
 - Hilbert space representation of attention states
 - Threshold-based collapse mechanism
 - Multi-head attention structure
+
+### Implementation Benefits
+- Maintains the essential properties of quantum collapse (discreteness, probability-based selection)
+- Achieves computational efficiency while preserving theoretical parallels
+- Provides a practical framework for testing consciousness-related hypotheses
 
 ### Usage in Transformers
 
